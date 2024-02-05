@@ -1,4 +1,4 @@
-var countDownDate = new Date("Feb 5, 2024 20:37:25").getTime();
+var countDownDate = new Date("Jan 14, 2024 0:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -32,7 +32,10 @@ function myFunction() {
   if (distance > 0) {
     alert("Not time yet!");
   } else {
-    alert("It's time");
+    if (window.confirm('If you click "ok" you would be redirected . Cancel will load this website ')) 
+    {
+    window.location.href='https://www.google.com/chrome/browser/index.html';
+    };
   }
   return;
 }
