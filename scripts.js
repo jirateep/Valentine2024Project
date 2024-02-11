@@ -34,10 +34,7 @@ function myFunction() {
   } else {
     if (window.confirm('If you click "ok" you would be redirected . Cancel will load this website ')) 
     {
-    // To anyone who found this link,
-    // Pls. don't tell P'Aum what you found. And the current link is a dummy. I will replace it soon.
-    // Thank you, Mind
-    window.location.href='https://www.google.com/chrome/browser/index.html';
+      window.location.href='https://youtu.be/Le5oS9kEgjA';
     };
   }
   return;
